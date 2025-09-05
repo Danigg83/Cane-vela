@@ -14,3 +14,6 @@
 .animate-fade-in {
   animation: fade-in 0.5s ease-in-out;
 }
+.router-link-active{
+  opacity: 0.5;
+}

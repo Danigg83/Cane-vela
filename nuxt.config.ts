@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   css: [
-    '~/assets/css/variables.css' // <-- tu archivo de variables
+    '~/assets/css/variables.css', // <-- tu archivo de variables
+    '~/assets/css/css.css'
   ],
   components: [
     {

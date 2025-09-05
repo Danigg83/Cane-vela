@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
+  css: [
+    '~/assets/css/variables.css' // <-- tu archivo de variables
+  ],
   components: [
     {
       path: '~/components',   // carpeta raíz

@@ -1,18 +1,28 @@
 <template>
-      
-      <!-- Hero Section -->
-      <section class="flex-1 flex flex-col justify-center items-center text-center px-6">
-        <h2 class="text-5xl font-extrabold text-blue-800 mb-4">¡Bienvenido a Nuxt 3 + Tailwind!</h2>
-        <p class="text-lg text-blue-700 mb-6 max-w-xl">Esta es una página de inicio de ejemplo con diseño responsive usando Tailwind CSS. Puedes personalizar colores, tipografías y componentes fácilmente.</p>
-        <div class="space-x-4">
-          <button class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">Comenzar</button>
-          <button class="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition">Aprender más</button>
-        </div>
-      </section>
-     
-  </template>
-  
-  <script setup>
-  // No es necesario JS para esta página de inicio
-  </script>
-  
+  <!-- Hero Section -->
+  <section class="flex-1 flex flex-col justify-center items-center text-center px-6 py-20 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
+    <!-- Título -->
+    <h2 class="text-5xl font-extrabold text-blue-800 mb-4">
+      ¡Bienvenido al Club Náutico Eslora!
+    </h2>
+
+    <!-- Descripción -->
+    <p class="text-lg text-blue-700 mb-6 max-w-xl">
+      Disfruta de la vela, cursos de navegación, actividades náuticas y eventos para toda la familia en nuestro club. Aprende a manejar embarcaciones, participa en regatas y vive la pasión por el mar.
+    </p>
+
+    <!-- Botones de acción -->
+    <div class="flex flex-wrap justify-center gap-4">
+      <NuxtLink to="/contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
+        Unirse al Club
+      </NuxtLink>
+      <NuxtLink to="/about" class="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg shadow hover:bg-blue-50 transition">
+        Más información
+      </NuxtLink>
+    </div>
+  </section>
+</template>
+
+<script setup>
+// Esta sección no necesita JS por ahora
+</script>

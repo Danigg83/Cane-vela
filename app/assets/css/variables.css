@@ -1,0 +1,16 @@
+/* Solo variables y animaciones, sin @import de Tailwind */
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #10b981;
+}
+
+/* Animaciones personalizadas */
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-in-out;
+}

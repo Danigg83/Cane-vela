@@ -4,9 +4,9 @@
     <NuxtLink to="/register" class="text-blue-600 hover:text-blue-800 font-medium">Registrate</NuxtLink>
   </nav>
 
-  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
+  <section class="flex items-center justify-center  from-blue-100 via-blue-200 to-blue-300 m-8">
     <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
-      <h2 class="text-2xl font-bold text-center text-blue-700 mb-6">Iniciar Sesión</h2>
+      <h2 class="text-3xl font-bold text-center text-blue-700 mb-6">Iniciar Sesión</h2>
 
       <form @submit.prevent="handleLogin" class="space-y-4">
         <input
@@ -29,13 +29,13 @@
 
         <button
           type="submit"
-          class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+          class="w-full bg-blue-600 text-white py-3 text-lg rounded-lg hover:bg-blue-700 transition"
         >
           Entrar
         </button>
       </form>
 
-      <p class="text-sm text-center text-gray-600 mt-4">
+      <p class="text-sm text-center text-gray-600 mt-6">
         ¿No tienes cuenta?
         <NuxtLink to="/register" class="text-blue-600 hover:underline">Regístrate</NuxtLink>
       </p>

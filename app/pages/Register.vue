@@ -4,7 +4,7 @@
     <NuxtLink to="/register" class="text-blue-600 hover:text-blue-800 font-medium">Registrarse</NuxtLink>
   </nav>
 
-  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
+  <section class="flex items-center justify-center from-blue-100 via-blue-200 to-blue-300 m-8">
     <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
       <h2 class="text-3xl font-bold text-center text-blue-700 mb-6">Crear Cuenta</h2>
 

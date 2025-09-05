@@ -1,6 +1,6 @@
 
 <template>
-    <section class="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 flex flex-col items-center py-20 px-6">
+    <section class=" from-blue-50 via-blue-100 to-blue-200 flex flex-col items-center py-20 px-6">
       <h1 class="text-4xl font-extrabold text-blue-800 mb-6">Sobre Nosotros</h1>
   
       <p class="text-lg text-blue-700 max-w-3xl mb-8 text-center">

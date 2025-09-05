@@ -6,6 +6,7 @@
     <NuxtLink to="/about" class="text-blue-600 hover:text-blue-800 font-medium">Acerca</NuxtLink>
     <NuxtLink to="/contact" class="text-blue-600 hover:text-blue-800 font-medium">Contacto</NuxtLink>
     <NuxtLink v-if="!user" to="/login" class="text-blue-600 hover:text-blue-800 font-medium">Login/Registrate</NuxtLink>
+    <NuxtLink v-if="user" to="/admin" class="text-blue-600 hover:text-blue-800 font-medium">Admin</NuxtLink>
     <!-- <NuxtLink to="/blog" class="text-blue-600 hover:text-blue-800 font-medium">Blog</NuxtLink> -->
     <!-- <NuxtLink to="/extra" class="text-blue-600 hover:text-blue-800 font-medium">Contacto 2</NuxtLink> -->
     <!-- Botón de logout -->

@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section -->
-  <section class="flex-1 flex flex-col justify-center items-center text-center px-6 py-20 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
+  <section class="flex-1 flex flex-col justify-center items-center text-center px-6 py-20 from-blue-100 via-blue-200 to-blue-300">
     <!-- Título -->
     <h2 class="text-5xl font-extrabold text-blue-800 mb-4">
       ¡Bienvenido al Club de Actividades Náuticas Eslora (CANE)

@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-blue-200 flex flex-col items-center py-20 px-6">
+    <section class="from-blue-50 via-blue-100 to-blue-200 flex flex-col items-center py-20 px-6">
       <h1 class="text-4xl font-extrabold text-blue-800 mb-6">Contacto</h1>
   
       <p class="text-lg text-blue-700 mb-10 text-center max-w-xl">

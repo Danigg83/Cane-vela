@@ -3,12 +3,14 @@
   <section class="flex-1 flex flex-col justify-center items-center text-center px-6 py-20 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
     <!-- Título -->
     <h2 class="text-5xl font-extrabold text-blue-800 mb-4">
-      ¡Bienvenido al Club Náutico Eslora!
+      ¡Bienvenido al Club de Actividades Náuticas Eslora (CANE)
     </h2>
 
     <!-- Descripción -->
     <p class="text-lg text-blue-700 mb-6 max-w-xl">
-      Disfruta de la vela, cursos de navegación, actividades náuticas y eventos para toda la familia en nuestro club. Aprende a manejar embarcaciones, participa en regatas y vive la pasión por el mar.
+      En <strong>CANE</strong> podrás disfrutar de la vela, cursos de navegación, actividades náuticas y eventos
+      para toda la familia. Aprende a manejar embarcaciones, participa en regatas y vive la pasión por el mar
+      en un entorno único.
     </p>
 
     <!-- Botones de acción -->
@@ -24,5 +26,5 @@
 </template>
 
 <script setup>
-// Esta sección no necesita JS por ahora
+// No requiere JS de momento
 </script>

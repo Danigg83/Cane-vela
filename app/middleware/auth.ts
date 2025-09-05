@@ -2,7 +2,7 @@
 import { useAuth } from '~/composables/useAuth'
 
 export default defineNuxtRouteMiddleware(async (to, from) => {
-  const { user } = useAuth()
+ /*  const { user } = useAuth()
 
   console.log('user en middleware auth:', user.value);
   
@@ -15,5 +15,5 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
   // Si quieres solo usuarios con correo verificado
   if (user.value && !user.value.email_confirmed_at) {
     return navigateTo('/login')
-  }
+  } */
 })

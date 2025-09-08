@@ -1,8 +1,8 @@
 <template>
-  <nav class="flex flex-wrap gap-2 justify-center md:gap-4 w-full md:w-auto p-4">
+  <!-- <nav class="flex flex-wrap gap-2 justify-center md:gap-4 w-full md:w-auto p-4">
     <NuxtLink to="/login" class="text-blue-600 hover:text-blue-800 font-medium">Login</NuxtLink>
     <NuxtLink to="/register" class="text-blue-600 hover:text-blue-800 font-medium">Registrate</NuxtLink>
-  </nav>
+  </nav> -->
 
   <section class="flex items-center justify-center  from-blue-100 via-blue-200 to-blue-300 m-8">
     <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
@@ -35,10 +35,10 @@
         </button>
       </form>
 
-      <p class="text-sm text-center text-gray-600 mt-6">
+      <!-- <p class="text-sm text-center text-gray-600 mt-6">
         ¿No tienes cuenta?
         <NuxtLink to="/register" class="text-blue-600 hover:underline">Regístrate</NuxtLink>
-      </p>
+      </p> -->
     </div>
   </section>
 </template>

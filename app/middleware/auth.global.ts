@@ -6,9 +6,9 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     await getUser()
   
     // Solo proteger rutas que empiezan por /admin
-    /* if (to.path.startsWith('/admin') && !user.value) {
+    if (to.path.startsWith('/admin') && !user.value) {
       return navigateTo('/login')
-    } */
+    }
   
     // Si hay usuario y navega a login o register => home
     if (user.value && (to.path === '/login' || to.path === '/register')) {
